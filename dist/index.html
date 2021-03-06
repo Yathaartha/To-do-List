@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="scripts/app.js" defer></script>
+  </head>
+  <body>
+    <header id="pageHeader">
+      <div class="container py-1">
+        <h1>To-Do List| Organize Your Timetable</h1>
+      </div>
+    </header>
+
+    <section id="input">
+      <div class="container">
+        <form action="">
+          <input
+            type="text"
+            name="title"
+            value="Homework"
+            id="listTitle"
+            placeholder="Homework"
+          />
+          <textarea
+            name="details"
+            id="listdetail"
+            cols="30"
+            rows="10"
+            placeholder="Do the homework assigned at school"
+          ></textarea>
+          <button class="btn">Insert</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
